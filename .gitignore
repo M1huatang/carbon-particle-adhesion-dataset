@@ -1,0 +1,9 @@
+.vs/
+build/
+results/
+OpenCV/
+OpenCV.local.props
+*.vcxproj.user
+*.suo
+*.user
+__pycache__/
