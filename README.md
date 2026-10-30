@@ -55,7 +55,3 @@ The program reads the images and annotations in the three `data` categories. Seg
 - Corresponding training configuration: [`yolo11m-seg/train/args.yaml`](yolo11m-seg/train/args.yaml).
 
 Both files originate from the same training run. The `data` and `save_dir` entries in `args.yaml` retain the original training-workspace paths; adapt these paths when using the configuration locally. The C++ project implements the proposed segmentation method.
-
-## Fixed archive version
-
-The source code, datasets, YOLO checkpoint and training configuration are available at the [fixed repository revision `45d96e9e368422249e7e9a12ba170d6e0990f46d`](https://github.com/M1huatang/carbon-particle-adhesion-dataset/tree/45d96e9e368422249e7e9a12ba170d6e0990f46d).
