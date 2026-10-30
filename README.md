@@ -30,8 +30,6 @@ The test dataset contains 600 images: 200 in each adhesion category. Images have
 - OpenCV 4.12.0, Windows x64 MSVC package (`opencv_world4120.lib` / `opencv_world4120.dll` for Release; `opencv_world4120d.lib` / `opencv_world4120d.dll` for Debug).
 - nlohmann/json 3.12.0, included as `src/json.hpp`; retain its embedded MIT license notice.
 
-These versions identify the environment inspected when preparing this public package. Build/run verification of this package is recorded in `VERIFICATION.md`; they do not by themselves establish the configuration of historical experiments.
-
 ## Build with Visual Studio
 
 1. Install Visual Studio 2022 with the **Desktop development with C++** workload, the v143 toolset, and a Windows 10/11 SDK.
